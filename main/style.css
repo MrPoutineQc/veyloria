@@ -1,0 +1,44 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #B6F485;
+}
+
+ul li{
+    list-style: none;
+    margin-right: 80px;
+    margin-top: 10px;
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: #B6F485;
+    text-transform: uppercase;
+    font-family: "Jersey 25";
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#821CC9, #250E46);
+}
+
+.logo {
+    margin-left: 40px;
+    font-family: "Notable";
+    font-size: 48px;
+    color: #B6F485;
+}
+
+ul {
+    display: flex;
+}
+
+li:hover {
+    text-decoration: underline;
+}
