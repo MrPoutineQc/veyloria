@@ -5,11 +5,15 @@
 
 a {
     text-decoration: none;
-    color: #B6F485;
+    color: #1E90FF;
 }
 
 ul li {
     list-style: none;
+}
+
+body {
+    background-image: url(), linear-gradient(#00233F, #3F2268 70% , #011C31);
 }
 
 
@@ -25,7 +29,7 @@ ul li {
     margin-left: 40px;
     font-family: "Notable";
     font-size: 48px;
-    color: #B6F485;
+    color: #1E90FF;
 }
 
 ul {
@@ -33,24 +37,25 @@ ul {
 }
 
 .nav ul li{
+    margin: 10px 80px 0px 0;
     list-style: none;
-    margin-right: 80px;
-    margin-top: 10px;
     font-size: 36px;
     letter-spacing: 5px;
-    color: #B6F485;
+    color: #1E90FF;
     text-transform: uppercase;
     font-family: "Jersey 25";
 }
 
 .nav li:hover {
     text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 5px;
+    
 }
 
 
 main {
     height: 400vh;
-    background-image: url(), linear-gradient(#00233F, #3F2268 70% , #011C31);
 }
 
 .changementPlanet {
@@ -80,7 +85,7 @@ h1 {
     padding-top: 100px;
     color: white;
     font-size: 12em;
-    font-family: "Jersey 25";
+    font-family: "Kumar One";
 }
 
 .Arrow {
