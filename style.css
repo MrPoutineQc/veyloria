@@ -117,7 +117,7 @@ h1 {
 
 .planetImg img {
     width: 800px;
-    
+    overflow: -moz-hidden-unscrollable;
 }
 
 
