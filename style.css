@@ -17,6 +17,7 @@ body {
     background-image: url(../main_media/background_etoile.jpg), linear-gradient(#00233F, #011C31);
     background-repeat: no-repeat;
     background-size: 7450px;
+    overflow: -moz-hidden-unscrollable;
 }
 
 
@@ -58,7 +59,8 @@ ul {
 
 
 main {
-    height: 250vh;
+    height: 350vh;
+    overflow: -moz-hidden-unscrollable;
 }
 
 .changementPlanet {
@@ -139,6 +141,7 @@ h1 {
 .descriptionImage {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 75%;
 }
 
