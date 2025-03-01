@@ -16,7 +16,7 @@ ul li {
 body {
     background-image: url(../main_media/background_etoile.jpg), linear-gradient(#00233F, #011C31);
     background-repeat: no-repeat;
-    background-size: 7000px;
+    background-size: 7450px;
 }
 
 
@@ -58,7 +58,7 @@ ul {
 
 
 main {
-    height: 300vh;
+    height: 250vh;
 }
 
 .changementPlanet {
@@ -71,6 +71,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .planet ul li {
@@ -78,11 +79,14 @@ main {
     color: white;
     font-size: 6em;
     font-family: "Jersey 25";
+    overflow: -moz-hidden-unscrollable;
 }
 
 .planet ul li:nth-child(2n-1) {
     opacity: 38%;
     margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h1 {
@@ -222,7 +226,7 @@ h1 {
 
 
 footer {
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
