@@ -1,6 +1,7 @@
 * { 
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -13,7 +14,9 @@ ul li {
 }
 
 body {
-    background-image: url(), linear-gradient(#00233F, #3F2268 70% , #011C31);
+    background-image: url(../main_media/background_etoile.jpg), linear-gradient(#00233F, #011C31);
+    background-repeat: no-repeat;
+    background-size: 7000px;
 }
 
 
@@ -55,7 +58,7 @@ ul {
 
 
 main {
-    height: 400vh;
+    height: 300vh;
 }
 
 .changementPlanet {
@@ -67,6 +70,7 @@ main {
 .planet {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .planet ul li {
@@ -91,8 +95,6 @@ h1 {
 .Arrow {
     display: flex;
     justify-content: center;
-
-
 }
 
 .leftArrow p {
@@ -107,4 +109,144 @@ h1 {
     font-size: 200px;
     color: white;
     cursor: pointer;
+}
+
+.planetImg img {
+    width: 800px;
+    
+}
+
+
+
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.description h2 {
+    font-size: 6em;
+    color: rgb(13, 186, 209);
+}
+
+.descriptionImage {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.descriptionImage p {
+    width: 75%;
+    font-size: 3em;
+    color: white;
+}
+
+.descriptionImage img {
+    width: 400px;
+    height: 600px;
+}
+
+
+.modeDeVie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.modeDeVie h3 {
+    font-size: 5em;
+    color: white;
+}
+
+.modeImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modeDeVie img{
+    height: 600px;
+    width: 400px;
+    margin: 50px 100px;
+
+}
+
+.culture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.culture h4 {
+    font-size: 3em;
+    color: white;
+}
+
+.societe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.societe h4 {
+    font-size: 3em;
+    color: white;
+}
+
+
+.economie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.economie h4 {
+    font-size: 3em;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.footerLeft img {
+    width: 200px;
+    margin-left: 1em;
+}
+
+.footerLeft h6 {
+    font-size: 2em;
+    color: white;
+}
+
+
+.footerRight li{
+    margin-left: 40px;
+    margin-right: 1em;
+    font-size: 2em;
+    color: white;
 }
