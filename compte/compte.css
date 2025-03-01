@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+}
+
+body {
+    background-image: url(../main_media/background_etoile.jpg);
+    background-size: 1920px;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "kumar one";
+    padding-top: 100px ;
+}
+
+.title h1 {
+    font-size: 6em ;
+}
+
+.box-form {
+    display: flex;
+    margin: auto;
+    background-color: green;
+    width: 550px;
+    height: 280px;
+    margin-top: 45px;
+}
+
+.box-form
