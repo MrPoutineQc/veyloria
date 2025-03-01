@@ -7,29 +7,172 @@
 
 body {
     background-image: url(../main_media/background_etoile.jpg);
-    background-size: 1920px;
+    background-size: 3000px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
+/* TITLE */
 .title {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: "kumar one";
-    padding-top: 100px ;
+    padding-top: 100px;
+    letter-spacing: 5px;
 }
 
 .title h1 {
-    font-size: 6em ;
+    font-size: 7em ;
+    font-weight: lighter;
 }
 
+/* FORMULAIRE */
 .box-form {
     display: flex;
     margin: auto;
-    background-color: green;
-    width: 550px;
-    height: 280px;
+    background-color: #001F3F;
+    width: 660px;
+    height: 300px;
     margin-top: 45px;
+    border-radius: 42px; 
+    justify-content: space-between;
 }
 
-.box-form
+.formRight {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1E90FF;
+    border-radius: 72px 0px 0px 108px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.formRight h3 {
+    font-size: 2em; 
+    font-family: "kumar one";
+    font-weight: lighter;
+}
+
+.formRight h4 {
+    font-family: "jersey 25";
+    font-weight: lighter;
+    width: 240px; 
+    font-size: 1.25em; 
+}
+
+.formLeft {
+    margin-left: 36px; 
+}
+
+.formLeft h3 {
+    font-family: "jersey 25";
+    font-weight: lighter;
+    font-size: 35px; 
+    margin-top: 30px; 
+    margin-bottom: 20px; 
+    max-width: 276px; 
+    text-transform: uppercase;
+}
+
+.courriel {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem; 
+}
+
+.courriel label {
+    font-family: "jersey 25";
+    font-weight: lighter;
+    font-size: 25px; 
+    margin-bottom: 5px;
+}
+
+.courriel input {
+    border-style: none;
+    width: 282px; 
+    height: 40px; 
+    border-radius: 3.6px; 
+    background-color: #AEAEAE;
+    padding-left: 6px;
+    font-size: 1.2em;
+
+}
+
+.courriel input:focus {
+    outline: none;
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+}
+
+.courriel input::placeholder {
+    font-size: medium;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.password label {
+    font-family: "jersey 25";
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.password input {
+    border-style: none;
+    width: 282px; 
+    height: 40px; 
+    border-radius: 3.6px; 
+    background-color: #AEAEAE;
+    padding-left: 6px; 
+    font-size: 1.2em;
+}
+
+.password input::placeholder {
+    font-size: medium;
+}
+
+.password input:focus {
+    outline: none;
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+}
+
+.forgot_password {
+    font-family: "jersey 25";
+    font-weight: lighter;
+    font-size: 16px; 
+    text-decoration: underline;
+    color: #1E90FF;
+}
+
+.forgot_password p {
+    color: #1E90FF;
+}
+
+.basForm {
+    display: flex;
+    margin-top: 10px; 
+    margin-left: 18px; 
+    font-family: "jersey 25";
+    font-weight: lighter;
+    font-size: 18px; 
+}
+
+.nouveau p {
+    margin-right: 9.6px;
+}
+
+.inscrire p {
+    text-decoration: underline;
+    color: #1E90FF;
+}
+
