@@ -59,6 +59,10 @@ ul {
     
 }
 
+
+
+
+
 .changementPlanet {
     width: 100%;
     display: flex;
@@ -74,14 +78,13 @@ ul {
 }
 
 .planet ul {
-    
     overflow-y: hidden;
 }
 
 .planet ul li {
     margin: 100px 20px 0;
     color: white;
-    font-size: 6em;
+    font-size: 5em;
     font-family: "Jersey 25";
     overflow: hidden;
 }
@@ -97,7 +100,7 @@ ul {
 h1 {
     padding-top: 100px;
     color: white;
-    font-size: 12em;
+    font-size: 8em;
     font-family: "Kumar One";
 }
 
@@ -129,7 +132,7 @@ h1 {
 
 
 
-
+/* HABITANTS */
 
 .description {
     display: flex;
@@ -222,13 +225,13 @@ h1 {
 }
 
 
+/* FAUNE */
 
 
 
 
 
-
-
+/* FLAURE */
 
 
 
