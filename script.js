@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             habitants.style.transition = "3s"
             habitants.style.opacity = "0.38"
 
-            planet.style.transform = "rotate(120deg)"
+            planet.style.transform = "rotate(90deg)"
             planet.style.transition = "3s"
 
             Habitants.style.display = "none";
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 habitants.style.transition = "3s"
                 habitants.style.opacity = "0.38"
     
-                planet.style.transform = "rotate(-120deg)"
+                planet.style.transform = "rotate(-90deg)"
                 planet.style.transition = "3s"
     
                 Habitants.style.display = "none";

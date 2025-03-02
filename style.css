@@ -58,13 +58,7 @@ ul {
     
 }
 
-
-main {
-    overflow: -moz-hidden-unscrollable;
-}
-
 .changementPlanet {
-    height: 1800px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -79,7 +73,7 @@ main {
 }
 
 .planet ul {
-    height: 300px;
+    
     overflow-y: hidden;
 }
 
@@ -126,6 +120,7 @@ h1 {
 }
 
 .planetImg img {
+    height: 800px;
     width: 800px;
     overflow: hidden;
     overflow-y: hidden;
