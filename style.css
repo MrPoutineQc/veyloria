@@ -16,9 +16,9 @@ ul li {
 body {
     background-image: url(../main_media/background_etoile.jpg);
     background-repeat: no-repeat;
-    background-size: 7450px;
+    background-size: cover;
     height: 1080px;
-    width: 1920px;
+    width: 100%;
 }
 
 
