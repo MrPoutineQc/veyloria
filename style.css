@@ -13,6 +13,7 @@ ul li {
     list-style: none;
 }
 
+
 body {
     background-image: url(./main_media/background_etoile.jpg);
     background-repeat: no-repeat;
@@ -21,8 +22,6 @@ body {
     width: 100%;
     overflow: hidden;
 }
-
-
 
 .header {
     width: 100%;
