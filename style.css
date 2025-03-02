@@ -232,20 +232,65 @@ h1 {
 /* FAUNE */
 
 .partieFaune {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .descriptionFaune {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
 
+.descriptionFaune h2{
+    color: rgb(13, 186, 209);
+    font-size: 6em;
 }
 
 .descriptionFauneMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.descriptionFauneMessage p{
+    width: 50%;
+    margin-top: 50px;
+    color: white;
+    font-size: 2em;
 }
 
 .descriptionFauneImage {
-
+    display: flex;
+    justify-content:space-around;
+    margin-top: 100px;
 }
+
+.faunePredateur,.fauneProie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faunePredateur h3, .fauneProie h3 {
+    font-size: 4em;
+    color: #1E90FF;
+}
+
+.descriptionFauneImage img { 
+    margin-top: 40px;
+    width: 600px;
+    height: 400px;
+}
+
+.faunePredateur p, .fauneProie p {
+    font-size: 1.7em;
+}
+
+
 
 
 
