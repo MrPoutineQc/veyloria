@@ -59,6 +59,10 @@ ul {
     
 }
 
+.burger {
+    display: none;
+}
+
 
 
 
@@ -277,6 +281,7 @@ footer {
 
 .burger {
     margin-right: 40px;
+    display: block;
 }
 
     #burger1, #burger2, #burger3 {
