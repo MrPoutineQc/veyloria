@@ -17,7 +17,7 @@ body {
     background-image: url(./main_media/background_etoile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1080px;
+    height: 330vh;
     width: 100%;
 }
 
@@ -233,7 +233,7 @@ h1 {
 
 
 footer {
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
