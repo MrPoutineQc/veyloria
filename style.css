@@ -18,7 +18,7 @@ body {
     background-image: url(./main_media/background_etoile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 270vh;
+    height: 100%;
     width: 100%;
     overflow: hidden;
 }
