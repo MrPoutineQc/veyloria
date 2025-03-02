@@ -37,6 +37,7 @@ body {
     margin-top: 45px;
     border-radius: 42px; 
     justify-content: space-between;
+    box
 }
 
 .formRight {
@@ -157,6 +158,29 @@ body {
 .forgot_password p {
     color: #1E90FF;
 }
+
+.submit_button {
+    margin-top: 50px;
+}
+
+.submit_button input {
+    height: 45px;
+    width: 140px;
+    background-color: #001F3F;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-family: "jersey 25";
+    font-weight: lighter;
+    letter-spacing: 1.3px;
+}
+
+.submit_button input:hover {
+    background-color: white;
+    color: #001F3F;
+    cursor: pointer;
+}
+
 
 .basForm {
     display: flex;
