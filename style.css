@@ -17,8 +17,9 @@ body {
     background-image: url(./main_media/background_etoile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 330vh;
+    height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 
@@ -258,6 +259,7 @@ footer {
 .footerRight li{
     margin-left: 40px;
     margin-right: 1em;
+    margin: 0 1em;
     font-size: 2em;
     color: white;
 }
