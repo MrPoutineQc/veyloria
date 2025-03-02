@@ -188,7 +188,7 @@ h1 {
 }
 
 .modeDeVie img{
-    height: 600px;
+    height: 530px;
     width: 400px;
     margin: 50px 100px;
 
@@ -267,8 +267,8 @@ h1 {
 }
 
 .descriptionFlaure h2{
-    color: white;
-    font-size: 4em;
+    color: rgb(13, 186, 209);
+    font-size: 6em;
 }
 
 .descriptionFlaureMessage {
@@ -280,6 +280,7 @@ h1 {
 
 .descriptionFlaureMessage p{
     width: 50%;
+    margin-top: 50px;
     color: white;
     font-size: 2em;
 }
@@ -293,12 +294,12 @@ h1 {
 }
 
 .imageFlaurePart1, .imageFlaurePart2 {
-    margin-top: 170px;
+    margin-top: 210px;
 }
 
 .descriptionFlaureImage img{
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
     margin: 0 30px;
 }
 
