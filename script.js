@@ -97,3 +97,53 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 ;
+
+
+
+// BURGER
+
+let burgerLogo = document.querySelector('.burger');
+let burger1 = document.querySelector('.burger1');
+let burger2 = document.querySelector('.burger2');
+let burger3 = document.querySelector('.burger3');
+let body = document.querySelector('body');
+let isOpen = false;
+
+
+burgerLogo.addEventListener('click', () => {
+    if (!isOpen) {
+        burger1.style.transform = 'rotate(45deg) translateY(0px)';
+        burger1.style.width = '30px';
+        burger1.style.position = 'absolute';
+        burger1.style.marginTop = '15px'
+
+        burger2.style.transform = 'rotate(-45deg) translateY(0px)';
+        burger2.style.width = '30px';
+        burger2.style.position = 'absolute';
+        burger2.style.marginTop = '15px'
+
+        burger3.style.visibility = 'hidden';
+        burger3.style.transition = "none"
+
+        body.style.backgroundColor = 'rgba(0,0,0,0.3)';
+
+        isOpen = true;
+    } else {
+        burger1.style.transform = 'rotate(0deg)';
+        burger1.style.width = '30px';
+        burger1.style.position = '';
+        burger1.style.marginTop = '5px';
+
+        burger2.style.transform = 'rotate(0deg)';
+        burger2.style.width = '30px';
+        burger2.style.position = '';
+        burger2.style.marginTop = '5px'
+
+        burger3.style.visibility = 'visible';
+        burger3.style.marginTop = '5px'
+
+        body.style.backgroundColor = '';
+
+        isOpen = false;
+    }
+});
