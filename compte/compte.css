@@ -172,12 +172,14 @@ body {
     font-family: "jersey 25";
     font-weight: lighter;
     letter-spacing: 1.3px;
+    transition: ease-in-out 0.3s;
 }
 
 .submit_button input:hover {
     background-color: white;
     color: #001F3F;
     cursor: pointer;
+    transition: ease-in-out 0.3s;
 }
 
 
