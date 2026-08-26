@@ -1,4 +1,12 @@
+/* TITRE */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Oxanium:wght@200..800&display=swap');
+
+
 :root {
+    --font-title: 'Audiowide', cursive;
+    --font-body: 'Oxanium', Arial, sans-serif;
+
     --bg-deep: #050b1d;
     --bg-void: #0a112d;
     --bg-surface: #101d42;
