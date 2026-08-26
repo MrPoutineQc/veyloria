@@ -1,3 +1,4 @@
+/* BODY */
 body {
     margin: 0;
     padding: 0;
@@ -6,32 +7,56 @@ body {
     font-family: var(--font-body);
 }
 
+/* HEADER */
+
+/* ABOUT SECTION */
 .about {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+        font-family: var(--font-title);
+        font-weight: 600;
+    }
+
+
+    h2 {
+        font-size: 2rem;
+        color: var(--green);
+        font-weight: 500;
+    }
+
+
+    .line {
+        width: 45%;
+        height: 3px;
+        background-color: var(--green);
+        background: linear-gradient(90deg, rgba(142, 243, 198, 0) 0%, rgba(142, 243, 198, 1) 50%, rgba(142, 243, 198, 0) 100%);
+        margin-bottom: 2rem;
+
+    }
+
+    .main-text {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        max-width: 500px;
+        text-align: center;
+        margin-bottom: 2rem;
+
+        p {
+            font-size: 1rem;
+
+            span {
+                color: var(--green);
+                font-weight: bold;
+            }
+
+        }
+    }
 }
 
-.about h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    font-family: var(--font-title);
-}
 
-.about h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--green);
-    font-weight: 600;
-}
-.main-text {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    max-width: 525px;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-.main-text span {
-    color: var(--green);
-    font-weight: bold;
-}
+/* CARD SECTION */
