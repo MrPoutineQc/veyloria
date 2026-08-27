@@ -305,6 +305,11 @@ main {
         text-align: left;
         width: 100%;
 
+        p{
+            color: var(--text-muted);
+            font-size: 1.5vw;
+        }
+
     }
 
     .culture {
