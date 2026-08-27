@@ -1,55 +1,88 @@
-header {
-    justify-content: space-between;
-    background-color: rgb(33, 6, 76);
-    border-bottom: 1px solid rgb(255, 255, 255);
-    position: sticky;
-    top: 0;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-body);
+    background-color: var(--text-primary);
 }
 
-li {padding: 0px 20px 0px 20px;}
+
+header {
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.192);
+    border-bottom: 1px solid var(--line);
+
+    img {
+        width: 100px;
+        height: auto;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    li {
+        font-size: 1.2rem;
+        display: inline-block;
+        margin-right: 40px;
+        padding: 11px 0;
+        color: var(--text-primary);
+    }
+
+    li:hover {
+        text-decoration: underline var(--blue) 4px;
+        text-underline-offset: 19px;
+    }
+}
+
 
 main {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
     background-color: var(--bg-surface);
 }
 
+/*HERO*/
+
 .hero {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     text-align: center;
-    gap: 20px;
+    background: linear-gradient(90deg, #101d42 40%, rgba(0, 0, 0, 0) 100%), url("../medias/images/planet.jpg");
+    background-size: cover;
+    background-position: center;
+
+    padding: 15vw 2vw;
 }
 
 .hero-text {
-    font-size: 2rem;
     color: var(--text-primary);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px 20px 0px 20px;
     width: 100%;
+    line-height: 1.2;
+    justify-content: flex-end;
 }
 
 .hero-text h1 {
     font-size: 4rem;
     color: var(--text-primary);
-    margin-bottom: 10px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .hero-text h2 {
-    font-size: 2rem;
+    font-size: 3vw;
     color: var(--purple);
-    margin-bottom: 10px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -59,31 +92,169 @@ main {
 .hero-text h3 {
     font-size: 1.5rem;
     color: var(--mint);
-    margin-bottom: 10px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .hero-text p {
-    font-size: 1rem;
+    font-size: 2vw;
     color: var(--text-muted);
-    margin-bottom: 10px;
     width: 40%;
     display: flex;
     justify-content: flex-start;
     text-align: left;
+    padding: 20px 0px 20px 0px;
 
 }
 
-.hero-btn button {
-    background-color: var(--purple);
-    color: var(--text-primary);
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+.hero-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 6vw 2vw;
+    gap:30px;
+
+    button {
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 0.875rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-1 {
+        background: linear-gradient(90deg, #6ee7ff 0%, #8ef3c6 100%);
+        color: var(--bg-deep);
+        font-weight: 700;
+    }
+
+    .btn-1:hover {
+        background: linear-gradient(90deg, #6ee7ff 0%, #73f0b8 100%);
+    }
+
+    .btn-2 {
+        border: 1px solid white;
+        color: white;
+    }
+}
+
+
+/*ABOUT*/
+
+.about {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: var(--bg-surface);
+    padding: 5vw 2vw;
+    align-items: flex-end;
+    border: 1px solid var(--line);
+    border-radius: 30px;
+    margin: 0vw 5vw 0vw 5vw;
+
+    .about-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 20px 0px 20px;
+        width: 60%;
+        justify-content: flex-end;
+
+
+        h2 {
+            font-size: 5vw;
+            color: var(--text-primary);
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+            gap: 8px;
+        }
+
+        h3 {
+            font-size: 2.5vw;
+            color: var(--mint);
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+            text-transform: uppercase;
+        }
+
+        span {
+            /* 1. Apply the gradient as a background */
+            background: linear-gradient(-135deg, #f7b3ff 0%, #bf8efc 30%, #77d1ff 65%, #8ff0d4 100%);
+            
+            /* 2. Clip the background to the text */
+            -webkit-background-clip: text;
+            background-clip: text;
+            
+            /* 3. Make the actual text transparent so the background shows through */
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+
+        p {
+            font-size: 2vw;
+            color: var(--text-muted);
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+            padding: 20px 0px 20px 0px;
+
+        }
+
+        button {
+            width: 100%;
+            padding: 10px 20px;
+            border: 1px solid var(--purple);
+            border-radius: 5px;
+            background-color: rgba(34, 6, 109, 0.349);
+            color: var(--purple);
+        }
+    }
+
+    .about-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 20px 0px 20px;
+        width: 20vw;
+        height: 100%;
+        justify-content: flex-end;
+        line-height: 0;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+
+        h6 {
+            font-size: 1vw;
+            color: var(--purple);
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.5vw;
+            color: var(--text-muted);
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+            padding: 20px 0px 20px 0px;
+
+        }
+
+        #about-img {
+            display: flex;
+        }
+    }
 }
