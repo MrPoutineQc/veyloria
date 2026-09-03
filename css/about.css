@@ -78,8 +78,7 @@ body {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 50%;
-        height: 50%;
+        width: min(100%, 960px);
         border-radius: 25px;
         border: solid 1.5px var(--purple);
 
